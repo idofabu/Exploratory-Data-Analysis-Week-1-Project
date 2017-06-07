@@ -5,7 +5,7 @@ plot1<- function(){
         ## 3. generate a histogram of global active power(kilowatts)
         
         ## Parameters: none
-        ## Assumes household_power_consumption.txt file located in working dir
+        
         
         ## read data
         powerdata <- read.table("./household_power_consumption.txt", stringsAsFactors = FALSE, header = TRUE, sep =";"  )
